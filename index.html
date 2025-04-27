@@ -3,40 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Project Name</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <title>Skills Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"> <!-- Google Font for Inter -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="hero">
+        <div class="container">
+            <h1>Skills Tracker</h1>
+            <p>Welcome to my Skills Tracker! Documenting my learning journey, projects, and achievements.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
     </header>
 
-    <section id="home">
-        <h1>Welcome to My Project</h1>
-        <p>This is a simple website template. You can start building your project from here!</p>
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I’m passionate about technology, self-growth, and constantly acquiring new skills. This platform reflects my dedication toward personal and professional development.</p>
+        </div>
     </section>
 
-    <section id="about">
-        <h2>About This Project</h2>
-        <p>This project is a starting point for creating a new web application or website. You can expand it based on your goals and add more features as you go.</p>
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <span class="skill">Web Development</span>
+                <span class="skill">Arduino Projects</span>
+                <span class="skill">Problem Solving</span>
+                <span class="skill">Embedded Systems</span>
+                <span class="skill">Technical Writing</span>
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Feel free to reach out to me for any questions or collaboration opportunities!</p>
-        <a href="mailto:your-email@example.com">Email Me</a>
+    <section class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-cards">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200.png?text=LED+Blink" alt="LED Blink Project">
+                    <h3>Arduino LED Blink</h3>
+                    <p>A basic project using Arduino Uno to blink an LED, demonstrating programming and circuit skills.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200.png?text=Self-Defense+Jacket" alt="Self-Defense Jacket">
+                    <h3>Self-Defense Jacket</h3>
+                    <p>An innovative wearable jacket designed to deliver an electric shock to an attacker on activation.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you’d like to connect, collaborate, or just chat, feel free to reach out!</p>
+            <a href="mailto:your-email@example.com" class="btn">Email Me</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Skills Tracker. All Rights Reserved.</p>
+        </div>
     </footer>
 
 </body>
