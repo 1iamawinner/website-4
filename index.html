@@ -3,75 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Project Name</title>
-    
-    <!-- Link to Google Fonts (Example: Poppins) -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
-    
-    <!-- Link to your external CSS file -->
-    <link rel="stylesheet" href="style.css">
+    <title>My Skills Tracker</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f8ff; /* Light blue background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
 
-    <!-- Basic Meta Tags for SEO -->
-    <meta name="description" content="A brief description of your project">
-    <meta name="author" content="Your Name">
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.8em;
+        }
+
+        p {
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+        }
+
+        li {
+            color: #555;
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 15px;
+        }
+
+        li::before {
+            content: "•";
+            color: #555;
+            position: absolute;
+            left: 0;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <h1>MY SKILLS TRACKER</h1>
 
-    <!-- Main Header Section -->
-    <header class="main-header">
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+        <h2>Certifications</h2>
+        <p>Arduino Fundamentals Certification - Arduino</p>
 
-    <!-- Home Section -->
-    <section id="home" class="section home">
-        <div class="container">
-            <h1>Welcome to My Project</h1>
-            <p>This is a simple starting point for your project. You can build and customize it as you go!</p>
-        </div>
-    </section>
+        <h2>Workshops</h2>
+        <ul>
+            <li>Hands-on Arduino Workshop - XYZ College</li>
+        </ul>
 
-    <!-- About Section -->
-    <section id="about" class="section about">
-        <div class="container">
-            <h2>About This Project</h2>
-            <p>This project is a clean and simple template that you can use to kickstart your work. It’s flexible, easy to expand, and ideal for developers and creators alike.</p>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="section projects">
-        <div class="container">
-            <h2>My Projects</h2>
-            <p>Here are some of my notable projects:</p>
-            <ul>
-                <li><strong>Project 1:</strong> A brief description of your project.</li>
-                <li><strong>Project 2:</strong> A brief description of your project.</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>If you’d like to get in touch, feel free to reach out to me!</p>
-            <a href="mailto:your-email@example.com" class="btn">Email Me</a>
-        </div>
-    </section>
-
-    <!-- Footer Section -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Your Name. All Rights Reserved.</p>
-        </div>
-    </footer>
-
+        <h2>Skills</h2>
+        <ul>
+            <li>Arduino Programming</li>
+            <li>Embedded Systems Basics</li>
+            <li>Electronics Prototyping</li>
+        </ul>
+    </div>
 </body>
 </html>
