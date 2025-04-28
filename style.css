@@ -1,130 +1,55 @@
-/* General Reset and Setup */
-* {
+body {
+    background-color: #F5F5DC; /* Creamy Beige (Primary) */
+    color: #333; /* Keep your existing primary text color, adjust if needed for contrast */
+    font-family: sans-serif; /* Keep your existing font family */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Poppins', sans-serif; /* Clean font */
-    background-color: #f4f4f9; /* Light background for the page */
-    color: #333; /* Default text color */
-    line-height: 1.6;
-    text-align: center;
-    padding: 0 20px;
+.container {
+    background-color: #FFDAB9; /* Soft Peach (Secondary) - for your main content areas */
+    max-width: 1200px; /* Keep your existing max-width */
+    margin: 0 auto; /* Keep your existing centering */
+    padding: 20px; /* Keep or adjust your existing padding */
+    border-radius: 8px; /* Optional: Add a subtle rounded corner if you like */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Keep or adjust your existing shadow */
 }
 
-/* Header Styles */
-.main-header {
-    background-color: #2d3e50; /* Dark background for header */
-    padding: 20px 0;
+header {
+    background-color: #FFDAB9; /* Soft Peach (Secondary) - for your header */
+    padding: 1em 0; /* Keep or adjust your header padding */
+    /* Add any other existing header styles here */
 }
 
-nav .nav-links {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+footer {
+    background-color: #FFDAB9; /* Soft Peach (Secondary) - for your footer */
+    padding: 1em 0; /* Keep or adjust your footer padding */
+    text-align: center; /* Keep or adjust your footer alignment */
+    /* Add any other existing footer styles here */
 }
 
-nav .nav-links li {
-    display: inline-block;
-}
-
-nav .nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 600;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-nav .nav-links a:hover {
-    background-color: #187bcd; /* Hover effect for links */
-    color: white;
-}
-
-/* Section Styles */
-.section {
-    padding: 60px 20px;
-}
-
-.home {
-    background-color: #2d3e50; /* Dark background for home */
-    color: white;
-}
-
-.home h1 {
-    font-size: 3rem;
-    font-weight: 600;
-}
-
-.home p {
-    font-size: 1.2rem;
-    max-width: 800px;
-    margin: 20px auto;
+/* You might have other sections with specific backgrounds.
+   If you want them to also have the Soft Peach background,
+   you can add it to their CSS rules as well. For example: */
+/*
+.hero {
+    background-color: #FFDAB9;
 }
 
 .about {
-    background-color: #ffffff; /* White background for about */
-    color: #333;
+    background-color: #FFDAB9;
 }
 
-.about h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+.skills {
+    background-color: #FFDAB9;
 }
 
 .projects {
-    background-color: #e0f7fa; /* Light blue background for projects */
-    color: #333;
-}
-
-.projects h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.projects ul {
-    list-style-type: none;
-    margin-top: 10px;
-}
-
-.projects li {
-    font-size: 1.1rem;
-    line-height: 1.8;
+    background-color: #FFDAB9;
 }
 
 .contact {
-    background-color: #ffffff; /* White background for contact */
-    color: #333;
+    background-color: #FFDAB9;
 }
-
-.contact .btn {
-    background-color: #2d3e50; /* Button color */
-    color: white;
-    padding: 12px 25px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    border-radius: 30px;
-    margin-top: 20px;
-}
-
-.contact .btn:hover {
-    background-color: #187bcd; /* Hover effect for button */
-}
-
-/* Footer Section */
-.footer {
-    background-color: #2d3e50; /* Dark background for footer */
-    color: white;
-    padding: 20px 0;
-}
-
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
+*/
